@@ -8,7 +8,7 @@ apply plugin: 'io.spring.dependency-management'
 group = 'com.ableneo.workshops'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '8'
-mainClassName = 'com.ableneo.workshops.WebApplication'
+mainClassName = 'com.ableneo.workshops.rocket.launches.RocketLaunchesApplication'
 
 repositories {
 	mavenCentral()
