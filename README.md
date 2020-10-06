@@ -10,4 +10,10 @@ Materials for Observability with Elastic stack workshop
 - docker-compose.yml - docker compose which starts elastic(:9200,:9300), kibana(:5601) and apm-server (:8200)
 - elastic-observability.pdf - presentation
 
+# How to run backend app in sandbox
+
+```
+$ cd backend
+$ docker build -t backend .
+```
 
